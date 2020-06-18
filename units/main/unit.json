@@ -17,6 +17,7 @@
     }
   ],
   "codebases": {
-    "turtle-code": "https://github.com/eitansuez/turtle_js.git"
+    "turtle-code": "https://github.com/eitansuez/turtle_js.git",
+    "ashkelon-code": "https://github.com/eitansuez/ashkelon.git"
   }
 }
