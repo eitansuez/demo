@@ -1,5 +1,15 @@
 ---
 pageTitle: The Weather
+
+discussionPoints:
+  - Learning Shipkin
+  - Features
+  - How it works
+
+wrapUp:
+  - Similar to asciidoctor
+  - Similar to mkdocs
+
 ---
 
 # Hello
