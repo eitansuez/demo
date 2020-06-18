@@ -1,0 +1,21 @@
+{
+  "title": "Main",
+  "subjects": [
+    {
+      "lessons": [
+        {
+          "title": "The Weather",
+          "topic": "howto",
+          "materials": [
+            {
+              "location": "weather",
+              "title": "thoughts"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "codebases": {
+  }
+}

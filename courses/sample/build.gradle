@@ -1,0 +1,34 @@
+apply plugin: "io.pivotal.pal.shipkin.plugin"
+
+shipkin {
+    baseName = "sample"
+    courseVersion = topLevelCourseVersion
+    courseTitle = "Sample Course"
+    showDisclaimer = true
+    feedbackUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfajZb-OKfWB7SGMgmTtaVCFO5VT3Fqtc2tJU5CMxO6x8DU4g/viewform"
+    feedbackUrlField = "entry.1915922799"
+    useSecurity = false
+    contextCode = "sample-course"
+
+    units = [
+        "main"
+    ]
+
+    topicKey = [
+        "howto": "light-blue",
+        "lab"    : "green",
+        "reference"    : "orange"
+    ]
+
+    theme {
+        mainColor = "#003152"
+        linkColor = "#1B78B3"
+        accentColor = "#00A79D"
+        favicon = "/favicon.ico"
+
+        headerImage = "/flowers.jpg"
+    }
+}
+
+defaultTasks "tasks"
+
