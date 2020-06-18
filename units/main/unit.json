@@ -17,5 +17,6 @@
     }
   ],
   "codebases": {
+    "turtle-code": "https://github.com/eitansuez/turtle_js.git"
   }
 }
