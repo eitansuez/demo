@@ -1,13 +1,13 @@
 buildscript {
     repositories {
         jcenter()
-        maven {
-            url "http://platform-acceleration-lab-maven.s3.amazonaws.com"
-        }
+        maven { url "http://platform-acceleration-lab-maven.s3.amazonaws.com" }
+        maven { url "https://plugins.gradle.org/m2/" }
     }
 
     dependencies {
         classpath "io.pivotal.pal.shipkin:shipkin-plugin:8.5.2"
+        classpath "gradle.plugin.com.dorongold.plugins:task-tree:1.5"
     }
     ext {
         topLevelCourseVersion = "1.0"
@@ -15,3 +15,5 @@ buildscript {
 }
 
 apply plugin: "io.pivotal.pal.shipkin.plugin"
+apply plugin: "com.dorongold.task-tree"
+
